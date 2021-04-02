@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#Certifications" onclick="toggleMenu();">Certifications</a></li>
+          
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Bacem KHLIFI</span></h2>
+            <h3>I'm an engineering
+                student at Computer network.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="./images/img/bacem.png" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+              
+                <h2>I'm <b>Bacem Khlifi</b>
+                <p>I am sociable, active and optimistic. I am currently at the 
+                    looking for a summer internship in order to improve my knowledge in programming.</p>
+                <div class="heading bottom">
+                    <a href="" class="btn round">Download CV</a>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="work">
+        <div class="heading white">
+            <h2>Work</h2>
+            <p>Our Latest Work</p>
+        </div>
+        <div class="content">
+           <a href="https://lebonbit.herokuapp.com/router"> <div class="servicesBx">
+               <img src="./images/img/certifs/lebonbit.png">
+                <h3>Lebonbit.com</h3> 
+                <p>lebonbit.com is a free ad website.</p>
+            </div></a> 
+
+            <a href="https://e-english.netlify.app/">
+            <div class="servicesBx">
+                <img src="./images/img/certifs/academy.png" alt="">
+                <h3>e-learning</h3>
+                <p>Online English courses with professional English teachers.</p>
+            </div></a>
+
+            <a href="https://bitcoin-btc.netlify.app/">
+            <div class="servicesBx">
+                <img src="./images/img/certifs/btc.png" alt="">
+                <h3>BTC</h3>
+                <p>Guides on Bitcoin, cryptos.</p>
+            </div></a>
+
+            <a href="https://rs6-mtc2020.netlify.app/">
+            <div class="servicesBx">
+                <img src="./images/img/certifs/rs6.png">
+                <h3>RS6</h3>
+                <p>RS6 is an online training website.(In progress)</p>
+            </div>
+        </a>
+        
+            <div class="servicesBx">
+                <img src="https://ad962edbae8ba7b03b7f-d10007df79b5b7a4e475a291e50a08cf.ssl.cf3.rackcdn.com/labo-medical/ouvrir-laboratoire-analyses-medicales.jpg">
+                <h3>CDL</h3>
+                <p>(In progress)</p>
+            </div>
+           
+          
+        </div>
+    </section>
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="Certifications">
+        <div class="heading">
+            <h2>Certifications</h2>
+            <p>Showcasing some of my <b>Certifications </b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a >
+                    <img src="images/cisco.png" alt="">
+                    <p>CCNA Routing and Switching: Introduction to Networks
+                    </p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-eba8c85a-d3f7-470d-9861-e63dd56e008c.pdf" target="_blank">
+                    <img src="images/cybersecuirity.png" alt="">
+                    <p>Cyber secuirty course</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/8SKKBW24EW3G" target="_blank">
+                    <img src="images/SEO.png" alt="">
+                    <p>Increase SEO Traffic with WordPress</p>
+                </a>
+            </div>
+           
+        
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout in HTML -->
+    
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Tunisia,<br>Sfax<br><br>Tina, 3083</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>+216 53 780 888</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>bacemkhlifi@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/bacem-khlifi-46310b1b0/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/bacemkhlifi" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.youtube.com/channel/UCvzvpAxthXqG7j0DrD26yIg" target="_blank">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/becemkhlifi/?hl=fr" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                   
+                    <a href="mailto:bacemkhlifi001@gmail.com.com"> <input  type="" value="Send Message" name=""> </a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2020,  bacemkhlifi.com, Allrights reserved</p>
+    </footer>
+</body>
+</html>
